@@ -12,7 +12,7 @@ function Work() {
         if (item.demo !== ""){
             return <a href={item.demo}>
                         <button className='flex-col text-center rounded-lg px-4 py-3 m-2'>
-                            <FaLink size={34}/>
+                            <FaLink size={32}/>
                         </button>
                     </a>
         }
@@ -47,11 +47,11 @@ function Work() {
 
                         {/*Hover Effects*/}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <h2 className="mx-3 text-center text-3xl font bold text-white tracking-wider ">
+                            <h2 className="mx-3 text-center text-2xl font bold text-white tracking-wider ">
                                 {item.name}
                             </h2>
                             <div className='mx-5'>
-                                <p className=' text-center text-grey'>A text and question are provided, by implementing a deep learning transformers architecture, the model will extract the answer from the aforementioned text.</p>
+                                <p className='text-sm text-center text-grey'>A text and question are provided, by implementing a deep learning transformers architecture, the model will extract the answer from the aforementioned text.</p>
                             </div>
                             
                             <div className=' text-center'>
