@@ -34,7 +34,7 @@ function Work() {
         <div className='max-w-[1000px] mx-auto  p-8 flex flex-col justify-center w-11/12 h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-sky-300'>Projects</p>
-                <p className='py-6'>Check out some of my recent projects</p>
+                <p className='pt-4'>Check out some of my recent projects</p>
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-col-3 gap-4'>
