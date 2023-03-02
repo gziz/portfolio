@@ -51,7 +51,7 @@ function Work() {
                                 {item.name}
                             </h2>
                             <div className='mx-5'>
-                                <p className='text-sm text-center text-grey'>A text and question are provided, by implementing a deep learning transformers architecture, the model will extract the answer from the aforementioned text.</p>
+                                <p className='text-sm text-center text-grey'>{item.description}</p>
                             </div>
                             
                             <div className=' text-center'>

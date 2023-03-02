@@ -17,7 +17,7 @@ export const data=[
     {
         id:2,
         name:"Vehicle Routing Optimization",
-        description:"",
+        description:"Optimize traveling distance for profit maximization given user selected locations (Altered Nearest Neighbor Heuristic).",
         image:VehicleRouting,
         github:"https://github.com/gziz/tsp-front",
         demo:"",
@@ -25,6 +25,7 @@ export const data=[
     {
         id:3,
         name:"Monte Carlo Ruin Simulation",
+        description:"Analyzed historical insurance data and performed goodness-of-fit tests to obtain random variable parameters.",
         image:MonteCarlo,
         github:"https://github.com/gziz/cl-ruin-simulation",
         demo:"https://gziz-cl-ruin-simulation-appmain-04h648.streamlitapp.com/",
@@ -32,6 +33,7 @@ export const data=[
     {
         id:4,
         name:"Mars Search Algorithms",
+        description:"Evaluate the performance of multiple search algorithms in a Mars simulated environment.",
         image:Mars,
         github:"https://github.com/gziz/mars-routes",
         demo:"",
