@@ -16,6 +16,7 @@ const Home = () => {
         A junior data science major, interested in leveraging software engineering and mathematics for problem-solving, task optimization,
         and better decision making.
         </p>
+
         <div>
             <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-600 hover:border-cyan-600'>
               <Link className='flex' to='projects' smooth={true} duration={500}>
@@ -25,7 +26,6 @@ const Home = () => {
                 </span>
               </Link>
             </button>
-
         </div>
 
       </div>
