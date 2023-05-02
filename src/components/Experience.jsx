@@ -49,7 +49,7 @@ function Experience() {
                     - MLH x Meta
                 </h4>
                 <ul>
-                    <li>Integrate transformer architecture features to Meta's natural language processing libraries based on AI literature.</li>
+                    <li>Work on Meta's natural language processing libraries to integrate transformer features based on AI literature.</li>
                 </ul>
                 <p>
                 </p>
