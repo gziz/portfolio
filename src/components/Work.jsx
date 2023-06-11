@@ -43,23 +43,22 @@ function Work() {
 
                     <div 
                     style={{ backgroundImage: `url(${item.image})` }}
-                    className='shadow-2xl hover:shadow-cyan-500/60 group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                        {/*Hover Effects*/}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <h2 className="mx-3 text-center text-2xl font bold text-white tracking-wider ">
-                                {item.name}
-                            </h2>
-                            <div className='mx-5'>
-                                <p className='text-sm text-center text-grey'>{item.description}</p>
-                            </div>
-                            
-                            <div className=' text-center'>
-                                {renderDemo(item)}
-                                {renderGithub(item)}
-                            </div>
-
+                    className='shadow-2xl hover:shadow-cyan-500/60 group container rounded-md flex justify-center items-center mx-auto content-div relative bg-cover bg-center aspect-w-4 aspect-h-3'>
+                    
+                    {/*Hover Effects*/}
+                    <div className='opacity-0 group-hover:opacity-100 absolute inset-0 flex flex-col justify-center items-center'>
+                        <h2 className="mx-3 text-center text-2xl font-bold text-white tracking-wider">
+                        {item.name}
+                        </h2>
+                        <div className='mx-5'>
+                        <p className='text-sm text-center text-grey'>{item.description}</p>
                         </div>
+
+                        <div className='text-center'>
+                        {renderDemo(item)}
+                        {renderGithub(item)}
+                        </div>
+                    </div>
                     </div>
                 )                                
                 )}
