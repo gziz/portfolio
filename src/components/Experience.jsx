@@ -25,35 +25,31 @@ function Experience() {
                 className="vertical-timeline-element--education"
                 date="2020 - 2024"
                 iconStyle={{ background: "#3e497a", color: "#fff" }}
-                icon={<FaGraduationCap />}
-                >
-                <h3 className="vertical-timeline-element-title">
-                    Data Science Bachelors
-                </h3>
+                icon={<FaGraduationCap />}>
+                    <h3 className="vertical-timeline-element-title">
+                        Data Science Bachelors
+                    </h3>
 
-                <h4 className="vertical-timeline-element-subtitle">
-                    - Monterrey Institute of Technology
-                </h4>
+                    <h4 className="vertical-timeline-element-subtitle">
+                        Monterrey Institute of Technology
+                    </h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="01/2023 - present"
                 iconStyle={{ background: "#ccd6f6", color: "#fff", display:"flex", justifyContent:"center"}}
-                icon={<img src={metaLogo} alt="Meta Logo" style={{ width: "75%", objectFit: "contain"}} />}
-                
-                >
-                <h3 className="vertical-timeline-element-title">
-                    Software Engineering Fellow
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                    - MLH x Meta
-                </h4>
-                <ul>
-                    <li>Work on Meta's natural language processing libraries to integrate transformer features based on AI literature.</li>
-                </ul>
-                <p>
-                </p>
+                icon={<img src={metaLogo} alt="Meta Logo" style={{ width: "75%", objectFit: "contain"}} />}>
+                    <h3 className="vertical-timeline-element-title">
+                        Software Engineering Fellow
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                        MLH x Meta
+                    </h4>
+                    <ul>
+                        <li>Work on Meta's natural language processing libraries to integrate transformer features based on AI literature.</li>
+                    </ul>
                 </VerticalTimelineElement>
+                
             </VerticalTimeline>
         </div>
     </div>
