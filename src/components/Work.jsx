@@ -28,44 +28,37 @@ function Work() {
         }
     };
 
-  return (
-    <div name='projects' className='w-full bg-[#0a192f] text-gray-300'>
-
-        <div className='max-w-[1000px] mx-auto  p-8 flex flex-col justify-center w-11/12 h-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-sky-300'>Projects</p>
-                <p className='pt-4'>Check out some of my recent projects</p>
-            </div>
-
-            <div className='grid sm:grid-cols-2 md:grid-col-3 gap-4'>
-                
-            {data.map((item, index) => (
-                <div 
-                    style={{ backgroundImage: `url(${item.image})` }}
-                    className='shadow-2xl  hover:shadow-cyan-500/60  rounded-md group container flex justify-center items-center mx-auto content-div relative bg-cover bg-center aspect-w-8 aspect-h-5'>
+    return (
+        <div name='projects' className='w-full bg-[#0a192f]'>
+    
+            <div className='max-w-[1000px] mx-auto  p-8 flex flex-col justify-center w-11/12 h-full'>
+                <div className='text-gray-300 pb-8'>
+                    <p className='text-4xl font-bold inline border-b-4 border-sky-300'>Projects</p>
+                    <p className='  pt-4'>Check out some of my recent projects</p>
+                </div>
+    
+                <div className='grid sm:grid-cols-2 md:grid-col-3 gap-5'>
                     
-                    {/*Hover Effects*/}
-                    <div className='opacity-0 group-hover:opacity-100 absolute inset-0 flex flex-col justify-center items-center'>
-                        <h2 className="mx-3 text-center text-2xl font-bold text-white tracking-wider">
-                            {item.name}
-                        </h2>
-                        <div className='mx-5'>
-                            <p className='text-sm text-center text-grey'>{item.description}</p>
+                {data.map((item, index) => (
+                    <div class="rounded overflow-hidden shadow-2xl bg-white">
+                        <img class="w-full" src={item.image} alt="Sunset in the mountains"/>
+                        <div class="px-6 py-2 border-2 border-t-indigo-500">
+                            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+    
                         </div>
-
-                        <div className='text-center'>
-                            {renderDemo(item)}
-                            {renderGithub(item)}
+                        <div class="px-6 pt-2 pb-2">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
                         </div>
                     </div>
+    
+                ))}
+    
                 </div>
-
-            ))}
-
             </div>
         </div>
-    </div>
-  )
+      )
 }
 
 export default Work
