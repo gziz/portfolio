@@ -82,7 +82,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/gerardo-moreno-8718061b8/'
+              href='https://www.linkedin.com/in/gerardomz/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/13xS7BJ-IYImbmcUzkZkP89AVwsU7cASv/view?usp=sharing'
+              href='https://random-jerry.s3.amazonaws.com/portfolio-assets/GERARDO_MORENO_ZIZUMBO.pdf'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
