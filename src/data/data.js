@@ -1,81 +1,74 @@
-import Mars from '../assets/projects/mars_traversal.png'
-import QA from '../assets/projects/qa.png'
-import Quetzal from '../assets/projects/quetzal.gif'
-import MonteCarlo from '../assets/projects/montecarlo.png'
-import CryptoIoT from '../assets/projects/crypto-iot.png'
-import VehicleRouting from '../assets/projects/tsp.png'
-import metaLogo from '../assets/metaLogo.png'
 
 export const data=[
     {
-        name:"Virtual Assistant Language Model",
+        title:"Virtual Assistant Language Model",
         description:"AI assistant powered by Chat-GPT model with document retrieval (custom knowledge base). Access through a telegram bot.",
-        image:Quetzal,
+        imgFile: "quetzal.gif",
         technologies: [
-            { name: 'React', icon: metaLogo },
-            { name: 'Tailwind', icon: metaLogo },
-            // more technologies...
+            { name: 'OpenAI', icon: "openai2.png"},
+            { name: 'FastAPI', icon: "fastapi.png" },
+            { name: 'NGINX', icon: "nginx.png" },
+            { name: 'Redis', icon: "redis.png" },
+            { name: 'Telegram API', icon: "telegram.png" },
+
           ],
         github:"https://github.com/gziz/llm-chatbot-for-banking",
         demo:""
     },
     {
-      name:"IoT API with Crypto Algorithms",
+      title:"IoT API with Crypto Algorithms",
       description:"IoT API with mutual authentication and cryptographic algorithms for signature validation from scratch (ECDSA).",
-      image:CryptoIoT,
+      imgFile: "crypto_iot.png",
       technologies: [
-          { name: 'React', icon: metaLogo },
-          { name: 'Tailwind', icon: metaLogo },
-          // more technologies...
+          { name: 'Python', icon: "python.png" },
+          { name: 'FastAPI', icon: "fastapi.png" },
+          { name: 'Docker', icon: "docker.png" },
+          { name: 'Postgres', icon: "postgres.png" },
         ],
       github:"https://github.com/gziz/iot-crypto",
       demo:""
   },
   {
-      name:"Question Answering AI",
+      title:"Question Answering AI",
       description:"A text and question are provided, by implementing a deep learning transformers architecture, the model will extract the answer from the aforementioned text.",
-      image:QA,
+      imgFile: "qa.png",
       technologies: [
-          { name: 'React', icon: metaLogo },
-          { name: 'Tailwind', icon: metaLogo },
-          // more technologies...
-        ],
+        { name: 'Python', icon: "python.png" },
+        { name: 'HuggingFace', icon: "huggingface.png" },
+        { name: 'FastAPI', icon: "fastapi.png" },
+        { name: 'Docker', icon: "docker.png" },
+      ],
       github:"https://github.com/gziz/question-answer-ai",
       demo:"https://questionanswer.gerardomz.com/",
   },
     {
-        name:"Vehicle Routing Optimization",
+        title:"Vehicle Routing Optimization",
         description:"Optimize traveling distance for profit maximization given user selected locations (Altered Nearest Neighbor Heuristic).",
-        image:VehicleRouting,
+        imgFile: "tsp.png",
         technologies: [
-            { name: 'React', icon: metaLogo },
-            { name: 'Tailwind', icon: metaLogo },
-            // more technologies...
-          ],
+          { name: 'Python', icon: "python.png" },
+          { name: 'React', icon: "react.png" },
+        ],
         github:"https://github.com/gziz/tsp-front",
         demo:"",
     },
     {
-        name:"Monte Carlo Ruin Simulation",
-        description:"Analyzed historical insurance data and performed goodness-of-fit tests to obtain random variable parameters.",
-        image:MonteCarlo,
+        title:"Monte Carlo Ruin Simulation",
+        description:"Analyzed historical insurance data and performed goodness-of-fit tests to obtain random variable parameters for simulation.",
+        imgFile: "montecarlo.png",
         technologies: [
-            { name: 'React', icon: metaLogo },
-            { name: 'Tailwind', icon: metaLogo },
-            // more technologies...
-          ],
+          { name: 'Python', icon: "python.png" },
+        ],
         github:"https://github.com/gziz/cl-ruin-simulation",
         demo:"https://gziz-cl-ruin-simulation-appmain-04h648.streamlitapp.com/",
     },
     {
-        name:"Mars Search Algorithms",
+        title:"Mars Search Algorithms",
         description:"Evaluate the performance of multiple search algorithms in a Mars simulated environment.",
-        image:Mars,
+        imgFile: "mars.png",
         technologies: [
-            { name: 'React', icon: metaLogo },
-            { name: 'Tailwind', icon: metaLogo },
-            // more technologies...
-          ],
+          { name: 'Python', icon: "python.png" },
+        ],
         github:"https://github.com/gziz/mars-routes",
         demo:"",
     },
