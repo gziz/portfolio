@@ -5,11 +5,13 @@ export const data=[
         description:"AI assistant powered by Chat-GPT model with document retrieval (custom knowledge base). Access through a telegram bot.",
         imgFile: "quetzal.gif",
         technologies: [
+            { name: 'Python', icon: "python.png" },
             { name: 'OpenAI', icon: "openai2.png"},
             { name: 'FastAPI', icon: "fastapi.png" },
-            { name: 'NGINX', icon: "nginx.png" },
             { name: 'Redis', icon: "redis.png" },
-            { name: 'Telegram API', icon: "telegram.png" },
+            { name: 'TelegramAPI', icon: "telegram.png" },
+            { name: 'NGINX', icon: "nginx.png" },
+            { name: 'Deployment', icon: "aws.png" },
 
           ],
         github:"https://github.com/gziz/llm-chatbot-for-banking",
@@ -22,8 +24,11 @@ export const data=[
       technologies: [
           { name: 'Python', icon: "python.png" },
           { name: 'FastAPI', icon: "fastapi.png" },
-          { name: 'Docker', icon: "docker.png" },
           { name: 'Postgres', icon: "postgres.png" },
+          { name: 'NGINX', icon: "nginx.png" },
+          { name: 'Docker', icon: "docker.png" },
+          { name: 'Deployment', icon: "aws.png" },
+          
         ],
       github:"https://github.com/gziz/iot-crypto",
       demo:""
@@ -36,7 +41,9 @@ export const data=[
         { name: 'Python', icon: "python.png" },
         { name: 'HuggingFace', icon: "huggingface.png" },
         { name: 'FastAPI', icon: "fastapi.png" },
+        { name: 'React', icon: "react.png" },
         { name: 'Docker', icon: "docker.png" },
+        { name: 'Deployment', icon: "aws.png" },
       ],
       github:"https://github.com/gziz/question-answer-ai",
       demo:"https://questionanswer.gerardomz.com/",
@@ -48,6 +55,7 @@ export const data=[
         technologies: [
           { name: 'Python', icon: "python.png" },
           { name: 'React', icon: "react.png" },
+          { name: 'Heroku', icon: "heroku.png" },
         ],
         github:"https://github.com/gziz/tsp-front",
         demo:"",

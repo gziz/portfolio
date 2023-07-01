@@ -31,7 +31,7 @@ function Work() {
                             <div className="px-6 py-2">
                                 <div className="flex justify-between items-center my-2">
                                     <div className="font-bold text-xl text-gray-300">{item.title}</div>
-                                        <a target="_blank" rel="noopener noreferrer" 
+                                        <a href={item.github} target="_blank" rel="noopener noreferrer" 
                                             onClick={(e) => {
                                                 e.preventDefault(); 
                                                 openLinks(item);
@@ -45,9 +45,15 @@ function Work() {
                                     {item.description}
                                 </p>
                             </div>
+
                             <div className="px-4 py-2">
                                 {item.technologies.map((tech, index) => (
-                                    <img className="inline-block w-9 mr-4" src={`${process.env.PUBLIC_URL}/assets/icons/${tech.icon}`} alt={tech.name}/>
+                                    <div className="group inline-block w-9 mr-4 relative cursor-pointer">
+                                        <img src={`${process.env.PUBLIC_URL}/assets/icons/${tech.icon}`} alt={tech.name}/>
+                                        <div className="absolute text-sm bg-black text-white p-1 opacity-0 group-hover:opacity-100 -top-full left-1/2 transform -translate-x-1/2">
+                                            {tech.name}
+                                        </div>
+                                    </div>
                                 ))}
                             </div>
                         </div>

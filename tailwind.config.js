@@ -8,4 +8,9 @@ module.exports = {
   plugins: [
     require('@tailwindcss/aspect-ratio'), // don't forget to add the plugin
   ],
+  variants: {
+    extend: {
+      opacity: ['group-hover'],
+    }
+  }
 }
