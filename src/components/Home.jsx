@@ -19,8 +19,8 @@ const Home = () => {
 
         <div>
             <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-600 hover:border-cyan-600'>
-              <Link className='flex' to='projects' smooth={true} duration={500}>
-                Checkout out my projects
+              <Link className='flex' to='experience' smooth={true} duration={500}>
+                Checkout out my experience!
               </Link>
             </button>
         </div>

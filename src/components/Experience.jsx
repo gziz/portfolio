@@ -46,7 +46,7 @@ function Experience() {
                             Software Engineering Fellow
                         </h4>
                         <ul>
-                            <li>Worked on Meta's natural language processing libraries to integrate transformer features based on AI literature.</li>
+                            <li>Worked on Meta's NLP open-source libraries to integrate transformer features based on AI literature.</li>
                         </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -61,7 +61,7 @@ function Experience() {
                             Software Engineering Intern
                         </h4>
                         <ul>
-                            <li>Working on Oracle Cloud Infra (Machine Learning and Analytics Application)</li>
+                            <li>Working on Oracle Cloud Infra (ML and Analytics Application).</li>
                         </ul>
                 </VerticalTimelineElement>
                 
