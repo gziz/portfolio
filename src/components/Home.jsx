@@ -12,9 +12,11 @@ const Home = () => {
           Gerardo Moreno
         </h1>
 
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
-        A junior data science major, interested in leveraging software engineering and mathematics for problem-solving, task optimization,
+        <p className='text-xl text-[#8892b0] py-4 max-w-[750px]'>
+        Interested in leveraging software engineering and mathematics for problem-solving, task optimization,
         and better decision making.
+        <br />
+        Currently trying to keep up with the AI craze!
         </p>
 
         <div>

@@ -2,7 +2,7 @@
 export const data=[
     {
         title:"Virtual Assistant Language Model",
-        description:"AI assistant powered by Chat-GPT model with document retrieval (custom knowledge base). Access through a telegram bot.",
+        description:"Scalable AI assistant powered by Chat-GPT model for customer service. The AI extracts information from PDFs (document retrieval). Access is through a telegram bot.",
         imgFile: "quetzal.gif",
         technologies: [
             { name: 'Python', icon: "python.png" },
@@ -19,7 +19,7 @@ export const data=[
     },
     {
       title:"IoT API with Crypto Algorithms",
-      description:"IoT API with mutual authentication and cryptographic algorithms for signature validation from scratch (ECDSA).",
+      description:"IoT API with mutual authentication and cryptographic algorithms implemented from scratch for digital signature validation (ECDSA).",
       imgFile: "crypto_iot.png",
       technologies: [
           { name: 'Python', icon: "python.png" },
@@ -41,6 +41,7 @@ export const data=[
         { name: 'Python', icon: "python.png" },
         { name: 'HuggingFace', icon: "huggingface.png" },
         { name: 'FastAPI', icon: "fastapi.png" },
+        { name: 'JavaScript', icon: "js.png" },
         { name: 'React', icon: "react.png" },
         { name: 'Docker', icon: "docker.png" },
         { name: 'Deployment', icon: "aws.png" },
@@ -50,10 +51,11 @@ export const data=[
   },
     {
         title:"Vehicle Routing Optimization",
-        description:"Optimize traveling distance for profit maximization given user selected locations (Altered Nearest Neighbor Heuristic).",
+        description:"Optimize traveling distance for profit maximization given user selected locations. Implemented heuristic from scratch (Altered Nearest Neighbor).",
         imgFile: "tsp.png",
         technologies: [
           { name: 'Python', icon: "python.png" },
+          { name: 'JavaScript', icon: "js.png" },
           { name: 'React', icon: "react.png" },
           { name: 'Heroku', icon: "heroku.png" },
         ],
