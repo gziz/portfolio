@@ -1,23 +1,6 @@
 
 export const data=[
     {
-        title:"Virtual Assistant Language Model",
-        description:"Scalable AI assistant powered by Chat-GPT model for customer service. The AI extracts information from PDFs (document retrieval). Access is through a telegram bot.",
-        imgFile: "quetzal.gif",
-        technologies: [
-            { name: 'Python', icon: "python.png" },
-            { name: 'OpenAI', icon: "openai2.png"},
-            { name: 'FastAPI', icon: "fastapi.png" },
-            { name: 'Redis', icon: "redis.png" },
-            { name: 'TelegramAPI', icon: "telegram.png" },
-            { name: 'NGINX', icon: "nginx.png" },
-            { name: 'Deployment', icon: "aws.png" },
-
-          ],
-        github:"https://github.com/gziz/llm-chatbot-for-banking",
-        demo:""
-    },
-    {
       title:"IoT API with Crypto Algorithms",
       description:"IoT API with mutual authentication and cryptographic algorithms implemented from scratch for digital signature validation (ECDSA).",
       imgFile: "crypto_iot.png",
